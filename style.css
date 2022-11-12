@@ -1,0 +1,41 @@
+body {
+    background-color: hsl(212, 45%, 89%);
+    font-family: outfit;
+    font-weight: 400;
+    font-size: 15px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.qr-main {
+    background-color: hsl(0, 0%, 100%);
+    width: 20%;
+    padding: 15px;
+    margin-top: 100px;
+    border-radius: 20px;
+}
+
+.content {
+    text-align: center;
+    padding: 10px;
+}
+
+.title {
+    font-weight: bold;
+    font-size: 20px;
+    padding-bottom: 7px;
+    color: hsl(218, 44%, 22%);
+}
+
+.description {
+    color: hsl(220, 15%, 55%);
+}
+
+.image {
+    border-radius: 15px;
+}
